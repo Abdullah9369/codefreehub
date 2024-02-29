@@ -1,0 +1,21 @@
+.header{
+    width: 100%;
+    height: 10rem;
+    top: 0;
+    left: 0;
+    z-index: 100;
+
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        &__logo-box{
+            height: 6rem;
+            &__logo{
+                object-fit: contain;
+                height: 100%;
+            }
+        }
+    }
+}
